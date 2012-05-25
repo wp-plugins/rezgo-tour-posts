@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* Rezgo Tour Posts Settings CSS */
+
+#rtp_settings h1 {
+	font-weight:normal;
+	font-size:24px;
+}
+#rtp_settings form {
+	width:400px;
+}
+#rtp_settings form dt {
+   clear:both;
+   width:130px;
+   float:left;
+   text-align:right;
+	 font-weight:bold;
+	 padding:4px;
+}
+#rtp_settings form dd {
+   float:left;
+   width:240px;
+   margin:0 0 8px 4px;
+}
+
+#rtp_settings .success, #rtp_settings .warning  {
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+	-khtml-border-radius:3px;
+	color: #555555;
+	font-size: 12px;
+	line-height: 19px;
+	margin: 5px;
+	padding: 5px;
+	width:50%;
+}
+
+#rtp_settings .success {
+	background-color: #FFFBCC;
+	border: solid 1px #E6DB55;
+}
+
+#rtp_settings .warning {
+	background-color: #FFEBE8;
+	border: solid 1px #C00;
+}
+
+#rtp_tour_list {
+	background-color: #F1F1F1;
+	border: solid 1px #DFDFDF;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+	-khtml-border-radius:3px;
+	color: #555555;
+	font-size: 12px;
+	line-height: 19px;
+	display: inline-block;
+	margin: 15px 20px;
+	padding: 10px 40px 20px 15px;
+}
