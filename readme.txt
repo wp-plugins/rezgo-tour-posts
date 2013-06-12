@@ -5,11 +5,11 @@ Tags: tours, activities, events, attractions, booking, reservation,
 ticketing, seo, sitemap, custom post type, rezgo
 Requires at least: 3.0.0
 Tested up to: 3.3.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Rezgo tour inclusion in XML sitemaps
+Include each of your Rezgo tours as custom posts for use in XML sitemaps.
 
 == Description ==
 
@@ -31,6 +31,9 @@ Yes, this has been tested with the [WordPress SEO](http://wordpress.org/extend/p
 
 = 1.0 =
 * Initial release 
+= 1.1 =
+* Bug fix - removed unnecesary file include that was causing PHP errors
+* Added settings link to plugins page
 
 
 
