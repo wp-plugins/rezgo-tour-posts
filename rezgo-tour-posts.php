@@ -1,9 +1,9 @@
 <?php
 	/*
 		Plugin Name: Rezgo Tour Posts
-		Plugin URI: http://wordpress.org/extend/plugins/rezgo-tour-posts/
+		Plugin URI: http://wordpress.org/plugins/rezgo-tour-posts/
 		Description: Create posts for each of your Rezgo tours using the custom post type 'tours'. The tours will then be available for inclusion in XML sitemaps.
-		Version: 1.1
+		Version: 1.2
 		Author: Rezgo.
 		Author URI: http://www.rezgo.com
 		License: Modified BSD
@@ -12,7 +12,7 @@
 	/*  
 		Author: John McDonald
 				
-		Copyright (c) 2012, Rezgo (A Division of Sentias Software Corp.)
+		Copyright (c) 2015, Rezgo (A Division of Sentias Software Corp.)
 		All rights reserved. (email: support@rezgo.com)
 		
 		Redistribution and use in source form, with or without modification,
@@ -218,7 +218,7 @@
 			
 			echo '
 			<dl>
-				<dt>Select Tours Page:</dt>
+				<dt>Select Tour Page:</dt>
 				<dd><select name="rtp_tour_page">
 						<option value="tours"> select Rezgo page </option>
 				';
@@ -274,7 +274,7 @@
 			echo '
 			<div class="wrap" id="rtp_settings">
 				<br /><br />
-				<p class="warning">The Rezgo plugin is either not installed or activated. Before you can use this plugin, you must activate the primary Rezgo plugin. If you have not already done so, <a href="http://wordpress.org/extend/plugins/rezgo-online-booking/" target="_blank">download the latest version of the Rezgo plugin here</a>.</p>
+				<p class="warning">The Rezgo plugin is either not installed or activated. Before you can use this plugin, you must activate the primary Rezgo plugin. If you have not already done so, <a href="http://wordpress.org/plugins/rezgo-online-booking/" target="_blank">download the latest version of the Rezgo plugin here</a>.</p>
 			</div>
 			';		
 			
