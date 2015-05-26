@@ -29,11 +29,15 @@ Yes, this has been tested with the [WordPress SEO](http://wordpress.org/extend/p
 
 == Changelog ==
 
-= 1.0 =
-* Initial release 
+= 1.1 =
+* Wording and link changes
+
 = 1.1 =
 * Bug fix - removed unnecesary file include that was causing PHP errors
 * Added settings link to plugins page
+
+= 1.0 =
+* Initial release 
 
 
 
